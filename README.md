@@ -58,6 +58,7 @@ Fig.3 LQR block
 **RESULTS**
 
 The performance of the mobile inverted pendulum robot under different weights on top +0,+0.5kg,+0.9kg as the center of gravity shifts up as seen in the fig 4(b,c,d), and controller types were evaluated through simulations in MATLAB. 
+
 ![image](https://github.com/annadurai-ka/Two-Wheeled-Robot-Stability/assets/156352281/3fa96e70-2004-4aa3-9f2f-6a8220cd4674)
 (a) No controller  
 
@@ -69,6 +70,7 @@ The performance of the mobile inverted pendulum robot under different weights on
 
 ![image](https://github.com/annadurai-ka/Two-Wheeled-Robot-Stability/assets/156352281/6a4c9619-a3fb-418d-ba7a-772763da2b05)
 (d) 0.9 Kg
+
 Fig.4 Cart with no controller (a) and cart with weights (b,c,d) indicating the center of gravity
 
 A. LQR Controller Performance
@@ -84,6 +86,7 @@ A. LQR Controller Performance
 ![image](https://github.com/annadurai-ka/Two-Wheeled-Robot-Stability/assets/156352281/7223ae29-fcc0-4a16-a6ba-47210781ed77)
 
 (c) 0.9 Kg
+
 Fig.5 The LQR controller’s Cart displacement and pendulum angle component graph
 
 Figure 5(a) depicts the robot's performance without load using an LQR controller. The pendulum angle (orange curve) and the cart's position (blue curve) indicate rapid stabilization. The robot achieves balance within a second, demonstrating minimal oscillation. The overshoot, rise time, and settling time are all within the desired specifications. In Figure 5(b), the robot is loaded with 0.5 kg. The stabilization process under this condition shows fewer oscillations but a delayed response compared to the no-load scenario. The shift in the center of gravity affects the robot's dynamics, leading to a steady-state error and deviations in rise and settle times from the no-load condition. Figure 5(c) illustrates the scenario with a 0.9 kg load. Here, the robot struggles to stabilize, exhibiting significant oscillations that decrease only gradually over time. This plot indicates unsatisfactory performance, with necessary improvements in settling and rise times for better stability.
