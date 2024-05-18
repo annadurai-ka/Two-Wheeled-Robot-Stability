@@ -1,6 +1,6 @@
 # Two-Wheeled-Robot-Stability
 
-**BACKGROUND **
+**BACKGROUND**
 
 A. Inverted Pendulum:
 
@@ -14,7 +14,7 @@ C. Real-life products:
 
 Self-balancing robots are prominent in real-life applications like Segway personal transporters, enhancing urban mobility. They're also utilized in warehouse logistics for automated material handling, increasing efficiency. Additionally, they find use in educational platforms and research labs, fostering innovation in robotics and control systems.
 
-**METHODS	**
+**METHODS**
 
 A. Nomenclature
 
