@@ -1,6 +1,6 @@
 # Two-Wheeled-Robot-Stability
 
-**I. BACKGROUND **
+**BACKGROUND **
 
 A. Inverted Pendulum:
 
@@ -14,7 +14,7 @@ C. Real-life products:
 
 Self-balancing robots are prominent in real-life applications like Segway personal transporters, enhancing urban mobility. They're also utilized in warehouse logistics for automated material handling, increasing efficiency. Additionally, they find use in educational platforms and research labs, fostering innovation in robotics and control systems.
 
-**II. METHODS	**
+**METHODS	**
 
 A. Nomenclature
 
@@ -55,7 +55,7 @@ Table.1 System Parameters
 (a) LQR model from Simulink (b) LQR controller loop
 Fig.3 LQR block
 
-**III. RESULTS**
+**RESULTS**
 
 The performance of the mobile inverted pendulum robot under different weights on top +0,+0.5kg,+0.9kg as the center of gravity shifts up as seen in the fig 4(b,c,d), and controller types were evaluated through simulations in MATLAB. 
 ![image](https://github.com/annadurai-ka/Two-Wheeled-Robot-Stability/assets/156352281/3fa96e70-2004-4aa3-9f2f-6a8220cd4674)
@@ -109,6 +109,6 @@ C. Comparative Analysis and Material Considerations
 
 The comparative analysis of LQR and PID controllers under varying load conditions shows that heavier loads significantly affect the robot's stabilization time, leading to increased instability. This insight points out how important it is to choose strong and lightweight materials for the body of the robot to minimize its impact on stability. Furthermore, optimizing the robot's height relative to its center of mass is also very important. While a taller robot would be simpler to balance, a lower center of mass indicates that the wheels can stay below it and keep the robot balanced.
 
-**IV. CONCLUSION**
+**CONCLUSION**
 
 In conclusion, the work aims to emphasize the importance of selecting appropriate control algorithms and sensor inputs for stabilizing inverted pendulum systems. The simulations demonstrate that heavier loads pose challenges to the system's stability, resulting in longer settling times and increased oscillations. Along with this, the choice of materials for the pendulum is crucial, with lightweight yet strong materials being preferred to optimize stability and minimize settling time. Furthermore, the design of the robot's height and center of mass plays a significant role in achieving balance, necessitating careful consideration during the design phase. Overall, the findings provide valuable insights for designing and optimizing mobile inverted pendulum robots, highlighting the importance of control algorithm selection and system design considerations for achieving stable and efficient operation.
